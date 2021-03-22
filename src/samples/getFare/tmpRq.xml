@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soap:Body>
+      <GetFares xmlns="http://tempuri.org/">
+         <Login>
+            <OverideLogging xmlns="HitchHiker.FlightAPI.SharedStructs">0</OverideLogging>
+            <Password xmlns="HitchHiker.FlightAPI.SharedStructs">gA9#jH2?gC6#</Password>
+            <TransactionID xmlns="HitchHiker.FlightAPI.SharedStructs">TestToolTransactionID</TransactionID>
+            <UserName xmlns="HitchHiker.FlightAPI.SharedStructs">demo.test</UserName>
+         </Login>
+         <request>
+            <Carriers xmlns="HitchHiker.FlightAPI.FareRequestStructs" />
+            <Configuration xmlns="HitchHiker.FlightAPI.FareRequestStructs">
+               <AdditionalDetails>None</AdditionalDetails>
+               <AllotmentConfig>
+                  <Account xmlns="HitchHiker.FlightAPI.SharedStructs">
+                     <Database xsi:nil="true" />
+                     <Password xsi:nil="true" />
+                     <User xsi:nil="true" />
+                  </Account>
+                  <AffiliateCode xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <EnhancedSearch xmlns="HitchHiker.FlightAPI.SharedStructs">Off</EnhancedSearch>
+                  <Identifier xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <IgnoreAllDeadlines xmlns="HitchHiker.FlightAPI.SharedStructs">false</IgnoreAllDeadlines>
+                  <MatchCode xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <OnlyAllotments xmlns="HitchHiker.FlightAPI.SharedStructs">false</OnlyAllotments>
+                  <Priority xmlns="HitchHiker.FlightAPI.SharedStructs">All</Priority>
+                  <Programs xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <RefillmentType xmlns="HitchHiker.FlightAPI.SharedStructs">None</RefillmentType>
+                  <Supplier xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <Type xmlns="HitchHiker.FlightAPI.SharedStructs">None</Type>
+               </AllotmentConfig>
+               <AllowMultiTicketBookings>false</AllowMultiTicketBookings>
+               <AllowWaitList>false</AllowWaitList>
+               <CRSConfig>
+                  <GDS xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <GUID xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <ReceivedFrom xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <SpecialGDSName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <TerminalCountry xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <TerminalPCC xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <User xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               </CRSConfig>
+               <CRSSettings>
+                  <CRSData xmlns="HitchHiker.FlightAPI.SharedStructs">
+                     <GDS>WFE</GDS>
+                     <GUID xsi:nil="true" />
+                     <ReceivedFrom>Test</ReceivedFrom>
+                     <SpecialGDSName xsi:nil="true" />
+                     <TerminalCountry>DE</TerminalCountry>
+                     <TerminalPCC>WFETEST</TerminalPCC>
+                     <User xsi:nil="true" />
+                     <ForceSourceType>Default</ForceSourceType>
+                     <ID>0</ID>
+                     <UseMultiChannel>false</UseMultiChannel>
+                  </CRSData>
+                  <CRSData xmlns="HitchHiker.FlightAPI.SharedStructs">
+                     <GDS>T1</GDS>
+                     <GUID xsi:nil="true" />
+                     <ReceivedFrom>Test</ReceivedFrom>
+                     <SpecialGDSName xsi:nil="true" />
+                     <TerminalCountry>DE</TerminalCountry>
+                     <TerminalPCC>AFAU</TerminalPCC>
+                     <User>xmlhhkr001</User>
+                     <ForceSourceType>Default</ForceSourceType>
+                     <ID>0</ID>
+                     <UseMultiChannel>false</UseMultiChannel>
+                  </CRSData>
+                  <CRSData xmlns="HitchHiker.FlightAPI.SharedStructs">
+                     <GDS>TA</GDS>
+                     <GUID xsi:nil="true" />
+                     <ReceivedFrom>Test</ReceivedFrom>
+                     <SpecialGDSName xsi:nil="true" />
+                     <TerminalCountry>DE</TerminalCountry>
+                     <TerminalPCC>FRAL122BX</TerminalPCC>
+                     <User>WSHIKHIK</User>
+                     <ForceSourceType>Default</ForceSourceType>
+                     <ID>0</ID>
+                     <UseMultiChannel>false</UseMultiChannel>
+                  </CRSData>
+                  <CRSData xmlns="HitchHiker.FlightAPI.SharedStructs">
+                     <GDS>1Y</GDS>
+                     <GUID xsi:nil="true" />
+                     <ReceivedFrom>Test</ReceivedFrom>
+                     <SpecialGDSName xsi:nil="true" />
+                     <TerminalCountry>DE</TerminalCountry>
+                     <TerminalPCC>WBT</TerminalPCC>
+                     <User>TEST</User>
+                     <ForceSourceType>Default</ForceSourceType>
+                     <ID>0</ID>
+                     <UseMultiChannel>false</UseMultiChannel>
+                  </CRSData>
+                  <CRSData xmlns="HitchHiker.FlightAPI.SharedStructs">
+                     <GDS>T1</GDS>
+                     <GUID xsi:nil="true" />
+                     <ReceivedFrom>HH FLIGHTAPI TEST</ReceivedFrom>
+                     <SpecialGDSName xsi:nil="true" />
+                     <TerminalCountry>DE</TerminalCountry>
+                     <TerminalPCC>AIMI</TerminalPCC>
+                     <User>xmlhhk001</User>
+                     <ForceSourceType>Default</ForceSourceType>
+                     <ID>0</ID>
+                     <UseMultiChannel>false</UseMultiChannel>
+                  </CRSData>
+               </CRSSettings>
+               <Cache />
+               <Calculation>
+                  <BranchCalc xmlns="HitchHiker.FlightAPI.SharedStructs">
+                     <BranchName xsi:nil="true" />
+                     <IncludeQSurcharge>false</IncludeQSurcharge>
+                     <ModelName xsi:nil="true" />
+                  </BranchCalc>
+                  <GlobalCalc xmlns="HitchHiker.FlightAPI.SharedStructs">
+                     <BranchName xsi:nil="true" />
+                     <IncludeQSurcharge>false</IncludeQSurcharge>
+                     <ModelName xsi:nil="true" />
+                  </GlobalCalc>
+                  <ManualCalc xmlns="HitchHiker.FlightAPI.SharedStructs">
+                     <NumberOfAdults>0</NumberOfAdults>
+                     <NumberOfChildren>0</NumberOfChildren>
+                     <NumberOfInfants>0</NumberOfInfants>
+                     <Surcharge>0</Surcharge>
+                     <SurchargeType>PerBooking</SurchargeType>
+                     <SurchargeValueType>Absolute</SurchargeValueType>
+                  </ManualCalc>
+               </Calculation>
+               <CurrencyCode>EUR</CurrencyCode>
+               <DBCodes />
+               <ExtraInfo>All</ExtraInfo>
+               <FareDiversity>AirlineDiversity</FareDiversity>
+               <FixedStay>false</FixedStay>
+               <LanguageCode>EN</LanguageCode>
+               <MaxElapsedFlightTime>0</MaxElapsedFlightTime>
+               <MergeMCT />
+               <MultiChannelBranch xsi:nil="true" />
+               <MultiChannelBranchGroup xsi:nil="true" />
+               <NumberOfPaymentRequests>0</NumberOfPaymentRequests>
+               <PaymentFilters />
+               <PaymentInfo>None</PaymentInfo>
+               <RestrictOvernight>-1</RestrictOvernight>
+               <ReturnFlightsWithBaggageOnly>false</ReturnFlightsWithBaggageOnly>
+               <ReturnNonStopFlightsOnly>AllFlight</ReturnNonStopFlightsOnly>
+               <ReturnSeats>false</ReturnSeats>
+               <ReturnTicketlessCarrier>false</ReturnTicketlessCarrier>
+               <SortBy>TotalSellPrice IncludeTax</SortBy>
+               <SpecialDiscounts>NoDiscountedFares</SpecialDiscounts>
+               <ToleranceSearchMode>Default</ToleranceSearchMode>
+               <VayantConfig>
+                  <AgencyID xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <IATANumber xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <PointOfSale xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <SupplierName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <UserName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               </VayantConfig>
+            </Configuration>
+            <Fare xmlns="HitchHiker.FlightAPI.FareRequestStructs">
+               <Charter>
+                  <Accounts />
+                  <ConcurrentAvailabilities>0</ConcurrentAvailabilities>
+                  <MaximumAvailabilities>0</MaximumAvailabilities>
+                  <NumberOfAvailableFares>0</NumberOfAvailableFares>
+                  <NumberOfCharterFares>0</NumberOfCharterFares>
+                  <Touroperators />
+               </Charter>
+               <GDSFares>
+                  <CorporateCodes xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <FareSelectionCurrency xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <GDSTypes xmlns="HitchHiker.FlightAPI.SharedStructs">Published Negotiated</GDSTypes>
+                  <NumberOfFares xmlns="HitchHiker.FlightAPI.SharedStructs">50</NumberOfFares>
+                  <PercentageFareOption xmlns="HitchHiker.FlightAPI.SharedStructs">NoPercentages</PercentageFareOption>
+                  <PercentageOverrideOption xmlns="HitchHiker.FlightAPI.SharedStructs">Default</PercentageOverrideOption>
+                  <PercentageOverridesGDSFare xmlns="HitchHiker.FlightAPI.SharedStructs">false</PercentageOverridesGDSFare>
+                  <PercentagesData xmlns="HitchHiker.FlightAPI.SharedStructs" />
+                  <PublishedTaxOverrideDBCode xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <BrandedFares xmlns="HitchHiker.FlightAPI.RequestStructs">Off</BrandedFares>
+                  <ExtendedFareGroupBags xmlns="HitchHiker.FlightAPI.RequestStructs" />
+                  <ExtendedFareGroups xmlns="HitchHiker.FlightAPI.RequestStructs" />
+                  <FareGroups xmlns="HitchHiker.FlightAPI.RequestStructs" xsi:nil="true" />
+                  <IncludeCorpCodeDBCode xmlns="HitchHiker.FlightAPI.RequestStructs" xsi:nil="true" />
+               </GDSFares>
+               <Net>
+                  <AvailabilitySearchMode>None</AvailabilitySearchMode>
+                  <CalcModel xsi:nil="true" />
+                  <CheckAvailability>None</CheckAvailability>
+                  <CheckTax>NoTaxForecast</CheckTax>
+                  <DatabaseRecordsets xsi:nil="true" />
+                  <EnhancedFeederSearchConfig>
+                     <EFSearchMaxMoveDowns xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                     <EFSearchMode xmlns="HitchHiker.FlightAPI.SharedStructs">None</EFSearchMode>
+                     <MaxConnectionTime xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                     <MinConnectionTime xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  </EnhancedFeederSearchConfig>
+                  <FillWithPublishedFares>false</FillWithPublishedFares>
+                  <MatchCodes xsi:nil="true" />
+                  <MaximumConnections>0</MaximumConnections>
+                  <MaximumNumberOfNetFares>0</MaximumNumberOfNetFares>
+                  <NetFareCodes xsi:nil="true" />
+                  <NumberOfNetFares>0</NumberOfNetFares>
+                  <ReturnFromPathfinder>false</ReturnFromPathfinder>
+                  <ReturnNonAvailFares>Default</ReturnNonAvailFares>
+                  <SplitConnectionsToFares>Default</SplitConnectionsToFares>
+                  <StartFareNumber>0</StartFareNumber>
+                  <TariffSubType>None</TariffSubType>
+                  <TariffType>None</TariffType>
+                  <UserDefinedFieldDetailLevel />
+                  <XtremePricerConfig>
+                     <XPConcurrentAvails xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                     <XPMaxConnections xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                     <XPMaxMoveDowns xmlns="HitchHiker.FlightAPI.SharedStructs">0</XPMaxMoveDowns>
+                     <XPSearchMode xmlns="HitchHiker.FlightAPI.SharedStructs">None</XPSearchMode>
+                  </XtremePricerConfig>
+               </Net>
+               <Vayant>
+                  <AllowAirportChange xmlns="HitchHiker.FlightAPI.SharedStructs">false</AllowAirportChange>
+                  <AllowSplitTicket xmlns="HitchHiker.FlightAPI.SharedStructs">None</AllowSplitTicket>
+                  <MCTMultiplier xmlns="HitchHiker.FlightAPI.SharedStructs">0</MCTMultiplier>
+                  <MaxConnectTime xmlns="HitchHiker.FlightAPI.SharedStructs">0</MaxConnectTime>
+                  <NumberOfFares xmlns="HitchHiker.FlightAPI.SharedStructs">0</NumberOfFares>
+                  <PointOfSales xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <VayantFareSource xmlns="HitchHiker.FlightAPI.SharedStructs" />
+                  <CheckAvailability>None</CheckAvailability>
+               </Vayant>
+               <Web>
+                  <Country xsi:nil="true" />
+                  <NumberOfWebFares>20</NumberOfWebFares>
+                  <ReturnEstimatedResults>false</ReturnEstimatedResults>
+                  <RoutingType>Default</RoutingType>
+                  <SpecialDiscounts>NoDiscountedFares</SpecialDiscounts>
+                  <WebAgents />
+               </Web>
+            </Fare>
+            <Legs xmlns="HitchHiker.FlightAPI.FareRequestStructs">
+               <FareRequestLeg>
+                  <ArrivalSearchRadius>0</ArrivalSearchRadius>
+                  <ArrivalTime xsi:nil="true" />
+                  <Arrivals>
+                     <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">BCN</string>
+                  </Arrivals>
+                  <Class>Economy</Class>
+                  <Connections />
+                  <DepartureDate>2021-02-24T00:00:00</DepartureDate>
+                  <DepartureSearchRadius>0</DepartureSearchRadius>
+                  <DepartureTime xsi:nil="true" />
+                  <Departures>
+                     <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">DAC</string>
+                  </Departures>
+                  <DisableArrivalCodeTranslation>false</DisableArrivalCodeTranslation>
+                  <DisableDepartureCodeTranslation>false</DisableDepartureCodeTranslation>
+                  <FlightNumbers xsi:nil="true" />
+                  <Stay>
+                     <CheckDaysAhead>0</CheckDaysAhead>
+                     <CheckDaysBack>0</CheckDaysBack>
+                  </Stay>
+               </FareRequestLeg>
+            </Legs>
+            <Passengers xmlns="HitchHiker.FlightAPI.FareRequestStructs">
+               <FareRequestPassenger>
+                  <ForcePassengerType>false</ForcePassengerType>
+                  <FreePassengerType xsi:nil="true" />
+                  <Number>1</Number>
+                  <Type>Adult</Type>
+               </FareRequestPassenger>
+            </Passengers>
+            <Pricing xmlns="HitchHiker.FlightAPI.FareRequestStructs">
+               <MaximumFarePrice>
+                  <CurrencyCode xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               </MaximumFarePrice>
+            </Pricing>
+         </request>
+      </GetFares>
+   </soap:Body>
+</soap:Envelope>

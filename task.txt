@@ -1,0 +1,33 @@
+****************TASK LIST******************
+*Highest ticket seller.
+*Moderator get only search page result can be anything.
+
+
+=================DEPOSIT=====================
+*Check timezone and it should be fix.
+
+====================Ticket Detail Page=============================
+*
+
+
+
+=================Ticket=====================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+====================COMPLETED TASK======================
+*Iata Record
+*Counter should show lat 3 days data.

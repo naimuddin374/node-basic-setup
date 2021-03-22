@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BookResponseData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <AdditionalInformation xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs">
+      <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">Cart ID: c0530e08-f7be-4d92-94bd-86bd0bf8b3ff</string>
+      <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">Booking Item ID: ae0c96a6-ee8f-46ca-a94d-c7d41d6d7b47</string>
+   </AdditionalInformation>
+   <BookingOnHold xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs" xsi:nil="true" />
+   <CreatedPayment xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs" xsi:nil="true" />
+   <CreditCardApprovalCode xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs" xsi:nil="true" />
+   <CustomerLastName xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs">UDDIN</CustomerLastName>
+   <CustomerReferenceNumber xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs" xsi:nil="true" />
+   <EquivalentTotalPrice xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs">
+      <CurrencyCode xmlns="HitchHiker.FlightAPI.SharedStructs">EUR</CurrencyCode>
+      <IsIATA xmlns="HitchHiker.FlightAPI.SharedStructs">false</IsIATA>
+      <Value xmlns="HitchHiker.FlightAPI.SharedStructs">534.01</Value>
+   </EquivalentTotalPrice>
+   <IsBookingOnHold xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs">false</IsBookingOnHold>
+   <Legs xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs">
+      <BookResponseLeg>
+         <SeatPreferences>false</SeatPreferences>
+         <Segments>
+            <BookResponseSegment>
+               <AllotmentConfig xsi:nil="true" />
+               <Arrival>DXB</Arrival>
+               <ArrivalDateTime>2021-02-24T04:25:00</ArrivalDateTime>
+               <BookingClass>Q</BookingClass>
+               <Carrier>EK</Carrier>
+               <Departure>DAC</Departure>
+               <DepartureDateTime>2021-02-24T01:00:00</DepartureDateTime>
+               <FlightNumber>585</FlightNumber>
+               <SegmentNumber xsi:nil="true" />
+               <SegmentStatus xsi:nil="true" />
+            </BookResponseSegment>
+            <BookResponseSegment>
+               <AllotmentConfig xsi:nil="true" />
+               <Arrival>BCN</Arrival>
+               <ArrivalDateTime>2021-02-24T12:25:00</ArrivalDateTime>
+               <BookingClass>Q</BookingClass>
+               <Carrier>EK</Carrier>
+               <Departure>DXB</Departure>
+               <DepartureDateTime>2021-02-24T07:50:00</DepartureDateTime>
+               <FlightNumber>185</FlightNumber>
+               <SegmentNumber xsi:nil="true" />
+               <SegmentStatus xsi:nil="true" />
+            </BookResponseSegment>
+         </Segments>
+         <TariffMatchCode xsi:nil="true" />
+      </BookResponseLeg>
+   </Legs>
+   <ModuleInfo xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs">
+      <ModuleListenPort xmlns="HitchHiker.FlightAPI.SharedStructs">7611</ModuleListenPort>
+      <ModuleMachineName xmlns="HitchHiker.FlightAPI.SharedStructs">VM-FRA01-IBETES</ModuleMachineName>
+      <ModuleTransactionID xmlns="HitchHiker.FlightAPI.SharedStructs">demo.test_20200529121249</ModuleTransactionID>
+      <ModuleVersion xmlns="HitchHiker.FlightAPI.SharedStructs">4.0.13.91</ModuleVersion>
+   </ModuleInfo>
+   <NotesAndInformation xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs">
+      <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">Testbooking only</string>
+   </NotesAndInformation>
+   <OnlineCheckinLink xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs" xsi:nil="true" />
+   <Passengers xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs">
+      <BookResponsePassenger>
+         <APISErrorCode>0</APISErrorCode>
+         <APISErrorText xsi:nil="true" />
+         <CalcInfo xsi:nil="true" />
+         <DOB xsi:nil="true" />
+         <DetailedTaxes />
+         <Endorsement xsi:nil="true" />
+         <EquivalentPassengerFare xsi:nil="true" />
+         <EquivalentTotalTax xsi:nil="true" />
+         <FirstName>MD NAIM</FirstName>
+         <LastName>UDDIN</LastName>
+         <PassengerFare xsi:nil="true" />
+         <PassengerType>Adult</PassengerType>
+         <PaymentMethods xsi:nil="true" />
+         <QSurcharge xsi:nil="true" />
+         <SeatReservations xsi:nil="true" />
+         <TicketSegments xsi:nil="true" />
+         <TotalTax xsi:nil="true" />
+         <TourCode xsi:nil="true" />
+         <Type>ADT</Type>
+      </BookResponsePassenger>
+   </Passengers>
+   <PaymentTokens xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs" />
+   <Queue xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs" xsi:nil="true" />
+   <RecordCounter xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs" xsi:nil="true" />
+   <RecordLocator xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs">TESTKEY</RecordLocator>
+   <ResponseInfo xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs">
+      <APIVersion xmlns="HitchHiker.FlightAPI.SharedStructs">4.0.43.9</APIVersion>
+      <Exceptions xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+      <ListenPort xmlns="HitchHiker.FlightAPI.SharedStructs">7725</ListenPort>
+      <MachineName xmlns="HitchHiker.FlightAPI.SharedStructs">VM-FRA01-IBETES</MachineName>
+      <ResponseDateTime xmlns="HitchHiker.FlightAPI.SharedStructs">2020-12-29T00:05:52.7880678+06:00</ResponseDateTime>
+      <TransactionID xmlns="HitchHiker.FlightAPI.SharedStructs">demo.test_20200529121249</TransactionID>
+   </ResponseInfo>
+   <Session xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs" xsi:nil="true" />
+   <Source xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs">GDSSource</Source>
+   <SpecialDiscounts xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs" xsi:nil="true" />
+   <Surcharge xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs">
+      <BaggageSurcharge xsi:nil="true" />
+      <BookingSurcharge>
+         <CurrencyCode xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+         <IsIATA xmlns="HitchHiker.FlightAPI.SharedStructs">false</IsIATA>
+         <Value xmlns="HitchHiker.FlightAPI.SharedStructs">2.6</Value>
+      </BookingSurcharge>
+      <CheckInSurcharge xsi:nil="true" />
+      <EquivalentBaggageSurcharge xsi:nil="true" />
+      <EquivalentBookingSurcharge>
+         <CurrencyCode xmlns="HitchHiker.FlightAPI.SharedStructs">USD</CurrencyCode>
+         <IsIATA xmlns="HitchHiker.FlightAPI.SharedStructs">false</IsIATA>
+         <Value xmlns="HitchHiker.FlightAPI.SharedStructs">2.1243794</Value>
+      </EquivalentBookingSurcharge>
+      <EquivalentCheckInSurcharge xsi:nil="true" />
+      <EquivalentHandBaggageSurcharge xsi:nil="true" />
+      <EquivalentPaymentSurcharge xsi:nil="true" />
+      <EquivalentPrioritySurcharge xsi:nil="true" />
+      <EquivalentSMSSurcharge xsi:nil="true" />
+      <EquivalentSeatSurcharge xsi:nil="true" />
+      <HandBaggageSurcharge xsi:nil="true" />
+      <PaymentSurcharge xsi:nil="true" />
+      <PrioritySurcharge xsi:nil="true" />
+      <SMSSurcharge xsi:nil="true" />
+      <SeatSurcharge xsi:nil="true" />
+   </Surcharge>
+   <Tax xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs">
+      <CurrencyCode xmlns="HitchHiker.FlightAPI.SharedStructs">EUR</CurrencyCode>
+      <IsIATA xmlns="HitchHiker.FlightAPI.SharedStructs">false</IsIATA>
+      <Value xmlns="HitchHiker.FlightAPI.SharedStructs">102.01</Value>
+   </Tax>
+   <TicketOnDepartureInfo xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs" xsi:nil="true" />
+   <TotalPrice xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs">
+      <CurrencyCode xmlns="HitchHiker.FlightAPI.SharedStructs">EUR</CurrencyCode>
+      <IsIATA xmlns="HitchHiker.FlightAPI.SharedStructs">false</IsIATA>
+      <Value xmlns="HitchHiker.FlightAPI.SharedStructs">534.01</Value>
+   </TotalPrice>
+   <UsedCRSProfile xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs">
+      <CRSName xmlns="HitchHiker.FlightAPI.SharedStructs">NONE</CRSName>
+      <GDS xmlns="HitchHiker.FlightAPI.SharedStructs">TA</GDS>
+      <GUID xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+      <ReceivedFrom xmlns="HitchHiker.FlightAPI.SharedStructs">Test</ReceivedFrom>
+      <SpecialGDSName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+      <TerminalCountry xmlns="HitchHiker.FlightAPI.SharedStructs">DE</TerminalCountry>
+      <TerminalPCC xmlns="HitchHiker.FlightAPI.SharedStructs">FRAL122BX</TerminalPCC>
+      <User xmlns="HitchHiker.FlightAPI.SharedStructs">WSHIKHIK</User>
+   </UsedCRSProfile>
+   <UsedEmailAddress xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs" />
+   <Warnings xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs" xsi:nil="true" />
+   <WebFareConfirmationPage xmlns="HitchHiker.FlightAPI.BookingFareResponseStructs" xsi:nil="true" />
+</BookResponseData>

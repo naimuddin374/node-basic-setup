@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soap:Body>
+      <BookFare xmlns="http://tempuri.org/">
+         <Login>
+            <OverideLogging xmlns="HitchHiker.FlightAPI.SharedStructs">0</OverideLogging>
+            <Password xmlns="HitchHiker.FlightAPI.SharedStructs">gA9#jH2?gC6#</Password>
+            <TransactionID xmlns="HitchHiker.FlightAPI.SharedStructs">TestToolTransactionID</TransactionID>
+            <UserName xmlns="HitchHiker.FlightAPI.SharedStructs">demo.test</UserName>
+         </Login>
+         <request>
+            <BackOffice xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs">
+               <AccountNumber xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <ClientID xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <CompanyID xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <CostNumber xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <CustomerReferenceNumber xsi:nil="true" />
+               <InformationText xsi:nil="true" />
+            </BackOffice>
+            <BookingOnHold xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs">Normal</BookingOnHold>
+            <CalcModel xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs" xsi:nil="true" />
+            <Configuration xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs">
+               <AdminEMailAddresses xsi:nil="true" />
+               <AgencyPhone>01545454545</AgencyPhone>
+               <AlarmTimeout>PT0H0M</AlarmTimeout>
+               <Allotment>
+                  <Database xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <Password xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <User xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               </Allotment>
+               <CRSConfig>
+                  <CRSName xmlns="HitchHiker.FlightAPI.SharedStructs">NONE</CRSName>
+                  <GDS xmlns="HitchHiker.FlightAPI.SharedStructs">TA</GDS>
+                  <GUID xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <ReceivedFrom xmlns="HitchHiker.FlightAPI.SharedStructs">Test</ReceivedFrom>
+                  <SpecialGDSName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <TerminalCountry xmlns="HitchHiker.FlightAPI.SharedStructs">DE</TerminalCountry>
+                  <TerminalPCC xmlns="HitchHiker.FlightAPI.SharedStructs">FRAL122BX</TerminalPCC>
+                  <User xmlns="HitchHiker.FlightAPI.SharedStructs">WSHIKHIK</User>
+                  <Category xsi:nil="true" />
+                  <DestinationPCC xsi:nil="true" />
+                  <Queue xsi:nil="true" />
+                  <ReturnStatus>0</ReturnStatus>
+               </CRSConfig>
+               <Calculation xsi:nil="true" />
+               <Charter>
+                  <Account>
+                     <AccountID xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                     <AccountName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                     <CompanyName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                     <LoginName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                     <LoginPassword xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                     <Source xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  </Account>
+                  <FareType xsi:nil="true" />
+                  <TouroperatorCode xsi:nil="true" />
+               </Charter>
+               <ClientBusinessPhone />
+               <ClientHomePhone />
+               <DeliveryDetails>
+                  <AdditionalStreet1 xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <AdditionalStreet2 xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <City xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <CompanyName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <ContactID xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <ContactType xmlns="HitchHiker.FlightAPI.SharedStructs">Unknown</ContactType>
+                  <Country xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <CountryCode xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <FirstName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <Gender xmlns="HitchHiker.FlightAPI.SharedStructs">Female</Gender>
+                  <IDCardNumber xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <IDCardType xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <LastName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <Password xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <PhoneNumbers xmlns="HitchHiker.FlightAPI.SharedStructs" />
+                  <Region xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <Street xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <Title xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <UserID xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <ZipCode xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               </DeliveryDetails>
+               <InvoiceDetails>
+                  <AdditionalStreet1 xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <AdditionalStreet2 xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <City xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <CompanyName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <ContactID xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <ContactType xmlns="HitchHiker.FlightAPI.SharedStructs">Unknown</ContactType>
+                  <Country xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <CountryCode xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <FirstName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <Gender xmlns="HitchHiker.FlightAPI.SharedStructs">Female</Gender>
+                  <IDCardNumber xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <IDCardType xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <LastName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <Password xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <PhoneNumbers xmlns="HitchHiker.FlightAPI.SharedStructs" />
+                  <Region xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <Street xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <Title xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <UserID xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                  <ZipCode xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               </InvoiceDetails>
+               <IsLiveBooking xsi:nil="true" />
+               <LanguageCode>EN</LanguageCode>
+               <MaximumTolerance>
+                  <CurrencyCode xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               </MaximumTolerance>
+               <PercentageTolerance>0</PercentageTolerance>
+               <PublishedTaxOverrideDBCode xsi:nil="true" />
+               <RecordSet xsi:nil="true" />
+               <SetPastDateSegment>false</SetPastDateSegment>
+               <TicketingDate xsi:nil="true" />
+               <TicketingDateType>Unknown</TicketingDateType>
+               <WebFare>
+                  <MaximumTolerance xsi:nil="true" />
+                  <Transactioncode xsi:nil="true" />
+                  <WebAgent xsi:nil="true" />
+               </WebFare>
+            </Configuration>
+            <Currency xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs">EUR</Currency>
+            <EnduserIP xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs" xsi:nil="true" />
+            <EnhancedRemarks xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs" xsi:nil="true" />
+            <Fare xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs">
+               <Corporate>
+                  <CorpFareAccessCode xsi:nil="true" />
+               </Corporate>
+            </Fare>
+            <IATANumber xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs" />
+            <IgnoreFlightTimes xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs">false</IgnoreFlightTimes>
+            <Legs xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs">
+               <BookRequestLeg>
+                  <AvailString>PUB @1|DAC|EK+585+202102240100+|EK+185+202102240750+|BCN@@AVL:X|X|X|X</AvailString>
+                  <CarrierCode>EK</CarrierCode>
+                  <Segments>
+                     <BookRequestSegment>
+                        <AirlineFilekey xsi:nil="true" />
+                        <AllotmentConfig xsi:nil="true" />
+                        <AllotmentData>
+                           <Account xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                           <AffiliateCode xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                           <ID xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                           <Identifier xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                           <MatchCode xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                           <Programs xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                           <Remark xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                           <Supplier xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                        </AllotmentData>
+                        <Arrival>DXB</Arrival>
+                        <ArrivalDateTime>2021-02-24T04:25:00</ArrivalDateTime>
+                        <BookingClass>Q</BookingClass>
+                        <BrandCode xsi:nil="true" />
+                        <BrandName xsi:nil="true" />
+                        <Carrier>EK</Carrier>
+                        <Departure>DAC</Departure>
+                        <DepartureDateTime>2021-02-24T01:00:00</DepartureDateTime>
+                        <FareType>None</FareType>
+                        <Farebase>QSSOPBD1</Farebase>
+                        <FlightNumber>585</FlightNumber>
+                        <SegmentStatus>Active</SegmentStatus>
+                        <SubFareType>Standard</SubFareType>
+                     </BookRequestSegment>
+                     <BookRequestSegment>
+                        <AirlineFilekey xsi:nil="true" />
+                        <AllotmentConfig xsi:nil="true" />
+                        <AllotmentData>
+                           <Account xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                           <AffiliateCode xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                           <ID xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                           <Identifier xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                           <MatchCode xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                           <Programs xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                           <Remark xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                           <Supplier xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                        </AllotmentData>
+                        <Arrival>BCN</Arrival>
+                        <ArrivalDateTime>2021-02-24T12:25:00</ArrivalDateTime>
+                        <BookingClass>Q</BookingClass>
+                        <BrandCode xsi:nil="true" />
+                        <BrandName xsi:nil="true" />
+                        <Carrier>EK</Carrier>
+                        <Departure>DXB</Departure>
+                        <DepartureDateTime>2021-02-24T07:50:00</DepartureDateTime>
+                        <FareType>None</FareType>
+                        <Farebase>QSSOPBD1</Farebase>
+                        <FlightNumber>185</FlightNumber>
+                        <SegmentStatus>Active</SegmentStatus>
+                        <SubFareType>Standard</SubFareType>
+                     </BookRequestSegment>
+                  </Segments>
+               </BookRequestLeg>
+            </Legs>
+            <OSI xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs" />
+            <Passengers xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs">
+               <BookRequestPassenger>
+                  <APISs xsi:nil="true" />
+                  <BoardingDetails>
+                     <PassengerBoarding xmlns="HitchHiker.FlightAPI.SharedStructs">
+                        <BaggagePieces>0</BaggagePieces>
+                        <CheckInType>OnlineCheckIn</CheckInType>
+                        <IsPriorityBoarding>false</IsPriorityBoarding>
+                        <LegIndex>ALL</LegIndex>
+                     </PassengerBoarding>
+                  </BoardingDetails>
+                  <Community xsi:nil="true" />
+                  <DOB>1998-01-01T00:00:00</DOB>
+                  <FOID>
+                     <CarrierCode xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                     <Issuer xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                     <Number xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+                     <Type xmlns="HitchHiker.FlightAPI.SharedStructs">None</Type>
+                  </FOID>
+                  <FamilyCertification xsi:nil="true" />
+                  <FirstName>MD NAIM</FirstName>
+                  <FreePassengerType xsi:nil="true" />
+                  <FrequentFlyerAirline xsi:nil="true" />
+                  <FrequentFlyerNumber xsi:nil="true" />
+                  <FrequentFlyerType xsi:nil="true" />
+                  <Gender>Male</Gender>
+                  <IDCardNumber xsi:nil="true" />
+                  <IDCardType xsi:nil="true" />
+                  <LastName>UDDIN</LastName>
+                  <Municipality xsi:nil="true" />
+                  <NameRemark xsi:nil="true" />
+                  <Nationality>Bangladesh</Nationality>
+                  <PassengerType>Adult</PassengerType>
+                  <Remarks xsi:nil="true" />
+                  <SSRs xsi:nil="true" />
+                  <SeatReservations />
+                  <Title>MR</Title>
+                  <VATNumber xsi:nil="true" />
+               </BookRequestPassenger>
+            </Passengers>
+            <Payment xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs" xsi:nil="true" />
+            <PaymentData xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs">
+               <BankAccountHolderFirstName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <BankAccountHolderLastName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <BankAccountNumber xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <BankAccountNumberIsEncoded xmlns="HitchHiker.FlightAPI.SharedStructs">false</BankAccountNumberIsEncoded>
+               <BankCodeNumber xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <BankName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <CountryCode xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <CreditCardCVCNumber xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <CreditCardExpiryDate xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <CreditCardHolderFirstName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <CreditCardHolderLastName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <CreditCardNumber xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <CreditCardPassword xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <CreditCardType xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <CreditCardUserName xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <FormOfPayment xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <FundingCurrency xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <IATANumber xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <ID xmlns="HitchHiker.FlightAPI.SharedStructs">0</ID>
+               <PaymentAmount xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <PaymentType xmlns="HitchHiker.FlightAPI.SharedStructs">None</PaymentType>
+               <VirtualPaymentProvider xmlns="HitchHiker.FlightAPI.SharedStructs" xsi:nil="true" />
+               <WantApprovalCode xmlns="HitchHiker.FlightAPI.SharedStructs">false</WantApprovalCode>
+            </PaymentData>
+            <PlatingCarrier xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs" />
+            <RecordSet xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs">GDS@PUBLISHED@E@1|QSSOPBD1||EK|0||ADT=ADT|1,2|DAC|BCN|20210224||1|||0|||432.000000|102.010000ÞÞEUR534.01</RecordSet>
+            <RemarkLines xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs" />
+            <SKs xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs" />
+            <SSRs xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs" />
+            <Services xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs" />
+            <Source xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs">GDSSource</Source>
+            <SpecialDiscounts xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs" xsi:nil="true" />
+            <StoreFareQuoteType xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs">DefaultSettings</StoreFareQuoteType>
+            <TicketingType xmlns="HitchHiker.FlightAPI.BookingFareRequestStructs">ElectronicTicketing</TicketingType>
+         </request>
+      </BookFare>
+   </soap:Body>
+</soap:Envelope>

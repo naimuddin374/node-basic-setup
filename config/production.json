@@ -1,0 +1,5 @@
+{
+    "API_URL": "http://3.35.104.29:9080/",
+    "SECRET_KEY": "APP_SECRET_KEY",
+    "env": "production"
+}

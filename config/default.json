@@ -1,0 +1,4 @@
+{
+    "SECRET_KEY": "APP_SECRET_KEY",
+    "env": "development"
+}

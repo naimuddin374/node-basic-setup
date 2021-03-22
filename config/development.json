@@ -1,0 +1,5 @@
+{
+    "API_URL": "http://c5426be851cd.ngrok.io",
+    "SECRET_KEY": "APP_SECRET_KEY",
+    "env": "development"
+}
